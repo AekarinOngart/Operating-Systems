@@ -17,18 +17,18 @@ namespace OS_Problem_02
         static int Back = 0; // ตัวแปรเก็บค่า index ของช่องสุดท้ายของ buffer
         static int Count = 0; // ตัวแปรเก็บค่าจำนวนของข้อมูลที่อยู่ใน buffer
         static object _Lock = new object(); // ตัวแปรสำหรับ lock การใช้งานของ thread
-        static int exit_flag = 0; // ตัวแปรสำหรับเก็บค่าเพื่อใช้ในการออกจาก loop ของ thread
+        static int exit_loop = 0; // ตัวแปรสำหรับเก็บค่าเพื่อใช้ในการออกจาก loop ของ thread
 
         static void EnQueue(int eq) // ฟังก์ชันสำหรับเพิ่มข้อมูลเข้าไปใน buffer
         {
             lock (_Lock) // ใช้ lock ในการใช้งานของ thread
             {
-                while ((Count == TSBuffer.Length) && (exit_flag == 0)) // ถ้า buffer เต็ม
+                while ((Count == TSBuffer.Length) && (exit_loop == 0)) // ถ้า buffer เต็ม
                 {
                     Console.WriteLine("Buffer is full, waiting for dequeue"); // แสดงข้อความว่า buffer เต็ม
                     Monitor.Wait(_Lock); // ให้ thread นั้นรอ
                 }
-                if (exit_flag == 0) // ถ้า thread ยังไม่ถึงจุดที่จะออกจาก loop
+                if (exit_loop == 0) // ถ้า thread ยังไม่ถึงจุดที่จะออกจาก loop
                 {
                     TSBuffer[Back] = eq; // เพิ่มข้อมูลเข้าไปใน buffer
                     Back = (Back + 1) % TSBuffer.Length; // กำหนดค่า index ของช่องสุดท้ายใหม่
@@ -44,12 +44,12 @@ namespace OS_Problem_02
             int dq = 0; // ตัวแปรเก็บค่าข้อมูลที่ดึงออกจาก buffer
             lock (_Lock) // ใช้ lock ในการใช้งานของ thread
             {
-                while ((Count == 0) && (exit_flag == 0)) // ถ้า buffer ว่าง
+                while ((Count == 0) && (exit_loop == 0)) // ถ้า buffer ว่าง
                 {
                     Console.WriteLine("Buffer is empty, waiting for enqueue"); // แสดงข้อความว่า buffer ว่าง
                     Monitor.Wait(_Lock); // ให้ thread นั้นรอ
                 }
-                if (exit_flag == 0) // ถ้า thread ยังไม่ถึงจุดที่จะออกจาก loop
+                if (exit_loop == 0) // ถ้า thread ยังไม่ถึงจุดที่จะออกจาก loop
                 {
                     dq = TSBuffer[Front]; // ดึงข้อมูลออกจาก buffer
                     Front = (Front + 1) % TSBuffer.Length; // กำหนดค่า index ของช่องแรกใหม่
@@ -67,7 +67,7 @@ namespace OS_Problem_02
             {
                 EnQueue(i); // เรียกใช้ฟังก์ชัน EnQueue
                 Thread.Sleep(5); // ให้ thread นี้หยุดทำงาน 5 มิลลิวินาที
-                if (exit_flag == 1) // ถ้า thread ถึงจุดที่จะออกจาก loop
+                if (exit_loop == 1) // ถ้า thread ถึงจุดที่จะออกจาก loop
                 {
                     break; // ออกจาก loop
                 }
@@ -80,7 +80,7 @@ namespace OS_Problem_02
             {
                 EnQueue(i); // เรียกใช้ฟังก์ชัน EnQueue
                 Thread.Sleep(5); // ให้ thread นี้หยุดทำงาน 5 มิลลิวินาที
-                if (exit_flag == 1) // ถ้า thread ถึงจุดที่จะออกจาก loop
+                if (exit_loop == 1) // ถ้า thread ถึงจุดที่จะออกจาก loop
                 {
                     break; // ออกจาก loop
                 }
@@ -96,7 +96,7 @@ namespace OS_Problem_02
             {
                 j = DeQueue(); // เรียกใช้ฟังก์ชัน DeQueue
                 Thread.Sleep(5); // ให้ thread นี้หยุดทำงาน 5 มิลลิวินาที
-                if (exit_flag == 1) // ถ้า thread ถึงจุดที่จะออกจาก loop
+                if (exit_loop == 1) // ถ้า thread ถึงจุดที่จะออกจาก loop
                 {
                     break; // ออกจาก loop
                 }
@@ -119,7 +119,7 @@ namespace OS_Problem_02
             t22.Start(3); // เริ่มทำงาน thread ที่สร้างไว้
 
             Console.ReadKey(); // รอการกดปุ่มจากผู้ใช้
-            exit_flag = 1; // กำหนดให้ thread ที่ทำงานเพิ่มข้อมูลเข้าไปใน buffer ออกจาก loop
+            exit_loop = 1; // กำหนดให้ thread ที่ทำงานเพิ่มข้อมูลเข้าไปใน buffer ออกจาก loop
             lock (_Lock) // ใช้ lock เพื่อป้องกันการเข้าถึงข้อมูลใน buffer โดย thread อื่น
             {
                 Monitor.PulseAll(_Lock); // ให้ thread ที่รอการเข้าถึงข้อมูลใน buffer ทำงานต่อ
