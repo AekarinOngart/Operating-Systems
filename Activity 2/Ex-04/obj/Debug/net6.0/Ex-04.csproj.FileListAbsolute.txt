@@ -1,0 +1,15 @@
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\bin\Debug\net6.0\Ex-04.exe
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\bin\Debug\net6.0\Ex-04.deps.json
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\bin\Debug\net6.0\Ex-04.runtimeconfig.json
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\bin\Debug\net6.0\Ex-04.dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\bin\Debug\net6.0\Ex-04.pdb
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\obj\Debug\net6.0\Ex-04.csproj.AssemblyReference.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\obj\Debug\net6.0\Ex-04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\obj\Debug\net6.0\Ex-04.AssemblyInfoInputs.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\obj\Debug\net6.0\Ex-04.AssemblyInfo.cs
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\obj\Debug\net6.0\Ex-04.csproj.CoreCompileInputs.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\obj\Debug\net6.0\Ex-04.dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\obj\Debug\net6.0\refint\Ex-04.dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\obj\Debug\net6.0\Ex-04.pdb
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\obj\Debug\net6.0\Ex-04.genruntimeconfig.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-04\obj\Debug\net6.0\ref\Ex-04.dll

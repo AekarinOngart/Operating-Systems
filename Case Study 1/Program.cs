@@ -1,11 +1,10 @@
-/* สมาชิกภายในกลุ่ม
+﻿/* สมาชิกภายในกลุ่ม
 64015019  นายจารุพัฒน์ เคนพรม
 64015051  นายเตชินท์ ไม้ทอง
 64015102  นายพิสิฐพงศ์ พิสิฐแก้วเพชร
 64015112  นายภูมิพัฒน์ ลาลุน
 64015163  นายอภิสิทธิ์ชัย ทองโต
 ุ64015172  นายเอกรินทร์ องอาจ */
-
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -18,7 +17,17 @@ namespace Problem01
     class Program
     {
         static byte[] Data_Global = new byte[1000000000];
-        static long Sum_Global1 = 0, Sum_Global2 = 0, Sum_Global3 = 0, Sum_Global4 = 0, Sum_Global5 = 0, Sum_Global6 = 0, Sum_Global7 = 0, Sum_Global8 = 0;
+
+        static long
+
+                Sum_Global1 = 0,
+                Sum_Global2 = 0,
+                Sum_Global3 = 0,
+                Sum_Global4 = 0,
+                Sum_Global5 = 0,
+                Sum_Global6 = 0,
+                Sum_Global7 = 0,
+                Sum_Global8 = 0;
 
         static int ReadData()
         {
@@ -28,7 +37,7 @@ namespace Problem01
 
             try
             {
-                Data_Global = (byte[])bf.Deserialize(fs);
+                Data_Global = (byte[]) bf.Deserialize(fs);
             }
             catch (SerializationException se)
             {
@@ -42,6 +51,7 @@ namespace Problem01
 
             return returnData;
         }
+
         static void sum1()
         {
             int G_index = 0;
@@ -93,6 +103,7 @@ namespace Problem01
                 G_index += 8;
             }
         }
+
         static void sum3()
         {
             int G_index = 2;
@@ -118,6 +129,7 @@ namespace Problem01
                 G_index += 8;
             }
         }
+
         static void sum4()
         {
             int G_index = 3;
@@ -143,6 +155,7 @@ namespace Problem01
                 G_index += 8;
             }
         }
+
         static void sum5()
         {
             int G_index = 4;
@@ -168,6 +181,7 @@ namespace Problem01
                 G_index += 8;
             }
         }
+
         static void sum6()
         {
             int G_index = 5;
@@ -245,6 +259,7 @@ namespace Problem01
                 G_index += 8;
             }
         }
+
         static void Main(string[] args)
         {
             Stopwatch sw = new Stopwatch();
@@ -256,6 +271,7 @@ namespace Problem01
             Thread th6 = new Thread(sum6);
             Thread th7 = new Thread(sum7);
             Thread th8 = new Thread(sum8);
+
             /* Read data from file */
             Console.Write("Data read...");
             int y = ReadData();
@@ -291,8 +307,20 @@ namespace Problem01
             Console.WriteLine("Done.");
 
             /* Result */
-            Console.WriteLine("Summation result: {0}", Sum_Global1 + Sum_Global2 + Sum_Global3 + Sum_Global4 + Sum_Global5 + Sum_Global6 + Sum_Global7 + Sum_Global8);
-            Console.WriteLine("Time used: " + sw.ElapsedMilliseconds.ToString() + "ms");
+            Console
+                .WriteLine("Summation result: {0}",
+                Sum_Global1 +
+                Sum_Global2 +
+                Sum_Global3 +
+                Sum_Global4 +
+                Sum_Global5 +
+                Sum_Global6 +
+                Sum_Global7 +
+                Sum_Global8);
+            Console
+                .WriteLine("Time used: " +
+                sw.ElapsedMilliseconds.ToString() +
+                "ms");
         }
     }
 }

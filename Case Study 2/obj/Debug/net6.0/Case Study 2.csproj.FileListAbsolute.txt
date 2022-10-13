@@ -1,0 +1,15 @@
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\bin\Debug\net6.0\Case Study 2.exe
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\bin\Debug\net6.0\Case Study 2.deps.json
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\bin\Debug\net6.0\Case Study 2.runtimeconfig.json
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\bin\Debug\net6.0\Case Study 2.dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\bin\Debug\net6.0\Case Study 2.pdb
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\obj\Debug\net6.0\Case Study 2.csproj.AssemblyReference.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\obj\Debug\net6.0\Case Study 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\obj\Debug\net6.0\Case Study 2.AssemblyInfoInputs.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\obj\Debug\net6.0\Case Study 2.AssemblyInfo.cs
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\obj\Debug\net6.0\Case Study 2.csproj.CoreCompileInputs.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\obj\Debug\net6.0\Case Study 2.dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\obj\Debug\net6.0\refint\Case Study 2.dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\obj\Debug\net6.0\Case Study 2.pdb
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\obj\Debug\net6.0\Case Study 2.genruntimeconfig.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2\obj\Debug\net6.0\ref\Case Study 2.dll

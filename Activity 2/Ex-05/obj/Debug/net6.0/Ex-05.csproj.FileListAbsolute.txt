@@ -1,0 +1,15 @@
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\bin\Debug\net6.0\Ex-05.exe
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\bin\Debug\net6.0\Ex-05.deps.json
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\bin\Debug\net6.0\Ex-05.runtimeconfig.json
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\bin\Debug\net6.0\Ex-05.dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\bin\Debug\net6.0\Ex-05.pdb
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\obj\Debug\net6.0\Ex-05.csproj.AssemblyReference.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\obj\Debug\net6.0\Ex-05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\obj\Debug\net6.0\Ex-05.AssemblyInfoInputs.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\obj\Debug\net6.0\Ex-05.AssemblyInfo.cs
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\obj\Debug\net6.0\Ex-05.csproj.CoreCompileInputs.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\obj\Debug\net6.0\Ex-05.dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\obj\Debug\net6.0\refint\Ex-05.dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\obj\Debug\net6.0\Ex-05.pdb
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\obj\Debug\net6.0\Ex-05.genruntimeconfig.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Activity 2\Ex-05\obj\Debug\net6.0\ref\Ex-05.dll
