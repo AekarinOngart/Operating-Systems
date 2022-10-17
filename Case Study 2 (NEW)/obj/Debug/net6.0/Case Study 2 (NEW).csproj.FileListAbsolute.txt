@@ -1,0 +1,15 @@
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\bin\Debug\net6.0\Case Study 2 (NEW).exe
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\bin\Debug\net6.0\Case Study 2 (NEW).deps.json
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\bin\Debug\net6.0\Case Study 2 (NEW).runtimeconfig.json
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\bin\Debug\net6.0\Case Study 2 (NEW).dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\bin\Debug\net6.0\Case Study 2 (NEW).pdb
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\obj\Debug\net6.0\Case Study 2 (NEW).csproj.AssemblyReference.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\obj\Debug\net6.0\Case Study 2 (NEW).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\obj\Debug\net6.0\Case Study 2 (NEW).AssemblyInfoInputs.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\obj\Debug\net6.0\Case Study 2 (NEW).AssemblyInfo.cs
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\obj\Debug\net6.0\Case Study 2 (NEW).csproj.CoreCompileInputs.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\obj\Debug\net6.0\Case Study 2 (NEW).dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\obj\Debug\net6.0\refint\Case Study 2 (NEW).dll
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\obj\Debug\net6.0\Case Study 2 (NEW).pdb
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\obj\Debug\net6.0\Case Study 2 (NEW).genruntimeconfig.cache
+C:\Users\64015172\Desktop\OPERATING-SYSTEMS\Case Study 2 (NEW)\obj\Debug\net6.0\ref\Case Study 2 (NEW).dll
